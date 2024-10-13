@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="calc.css">
+  <script src="calc.js"></script>
+</head>
+<body>
+  <div class="main">
+    <div id="display" class="display">
+      
+    </div>
+    
+    <div class="keys">
+      <button class="clear" onclick="clearDisplay()">C</button>
+      <button class="opp" onclick="show('()')">( )</button>
+      <button class="opp" onclick="show('%')">%</button>
+      <button class="opp" onclick="show('/')">÷</button>
+      <button class="btn" onclick="show('7')">7</button>
+      <button class="btn" onclick="show('8')">8</button>
+      <button class="btn" onclick="show('9')">9</button>
+      <button class="opp" onclick="show('*')">×</button>
+      <button class="btn" onclick="show('4')">4</button>
+      <button class="btn" onclick="show('5')">5</button>
+      <button class="btn" onclick="show('6')">6</button>
+      <button class="opp" onclick="show('-')">-</button>
+      <button class="btn" onclick="show('1')">1</button>
+      <button class="btn" onclick="show('2')">2</button>
+      <button class="btn" onclick="show('3')">3</button>
+      <button class="opp" onclick="show('+')">+</button>
+      <button class="opp" onclick="show('+/-')">+/-</button>
+      <button class="btn" onclick="show('0')">0</button>
+      <button class="btn" onclick="show('.')">.</button>
+      <button class="equal" onclick="calculate()">=</button>
+      
+     </div>
+  </div>
+  
+  <script src="calc.js" type="text/javascript"></script>
+</body>
+</html>
