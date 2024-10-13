@@ -10,5 +10,9 @@ function clearDisplay(){
 }
 
 function calculate(){
-  display.innerHTML = eval(display.innerHTML);
+  try{
+    display.innerHTML = eval(display.innerHTML);
+  } catch(e){
+  display.innerHTML = "Invalid";
+  }
 }
