@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.display{
+  padding: 65px 30px;
+  font-size: 5rem;
+  font-weight: bold;
+  text-align: end;
+  color: white;
+  width: 100%;
+  height: 30vh;
+  background-color: black;
+}
+
+.keys{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 70vh;
+  width: 100%;
+  padding: 10px;
+}
+
+button{
+  font-size: 3rem;
+  font-weight: bold;
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.clear{
+  color: hsl(0 55% 55%);
+  background-color: hsl(0 5% 11%);
+}
+
+.btn{
+  color: white;
+  background-color: hsl(0 5% 11%);
+}
+
+.opp{
+  color: green;
+  background-color: hsl(0 5% 11%);
+}
+
+.equal{
+  color: white;
+  background-color: green;
+}
